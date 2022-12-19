@@ -1,0 +1,8 @@
+name: BedWars
+version: '${version}'
+main: me.matytyma.bedwars.Main
+api-version: 1.19
+prefix: BedWars
+authors: [ matytyma ]
+description: Yeah, this is just another Minecraft BedWars plugin.
+website: https://www.github.com/matytyma/bedwars
