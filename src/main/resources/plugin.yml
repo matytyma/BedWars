@@ -5,4 +5,13 @@ api-version: 1.19
 prefix: BedWars
 authors: [ matytyma ]
 description: Yeah, this is just another Minecraft BedWars plugin.
-website: https://www.github.com/matytyma/bedwars
+website: https://www.github.com/matytyma/BedWars
+permissions:
+  bedwars.admin:
+    default: op
+    description: Allows players to setup BedWars plugin
+    children:
+      bedwars.updates: true
+  bedwars.notifications.updates:
+    default: op
+    description: Users with this permission will get notifications about new versions of plugin
