@@ -11,7 +11,7 @@ permissions:
     default: op
     description: Allows players to setup BedWars plugin
     children:
-      bedwars.updates: true
+      bedwars.notifications.updates: true
   bedwars.notifications.updates:
     default: op
     description: Users with this permission will get notifications about new versions of plugin
