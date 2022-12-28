@@ -8,6 +8,6 @@ public final class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		ConfigHandler.loadConfig();
-		getServer().getScheduler().runTaskTimer(this, new UpdateChecker(), 0, 90000);
+		getServer().getScheduler().runTaskTimer(this, new UpdateChecker(), 0, 36000);
 	}
 }
